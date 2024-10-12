@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Eslint configuration for React projects",
   "type": "module",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "eslint -c index.js index.js"
   },
   "dependencies": {
-    "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.1",
+    "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.1.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.12"
