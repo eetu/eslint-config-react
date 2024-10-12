@@ -58,17 +58,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.12.0":
+"@eslint/js@npm:9.12.0, @eslint/js@npm:^9.12.0":
   version: 9.12.0
   resolution: "@eslint/js@npm:9.12.0"
   checksum: 10/c4ec9f7ff664f778324002bccdfd63e4a563018e4d7efc838d8149898f9df8649fbc51a379c3d7deea40da4fba9e8e62f39f2df3ff2b9616e2241bbfc10456b0
-  languageName: node
-  linkType: hard
-
-"@eslint/js@npm:^9.6.0":
-  version: 9.6.0
-  resolution: "@eslint/js@npm:9.6.0"
-  checksum: 10/b2ba6cab129630664af9539cb80116207f472a31830dd129b9e0bded2b3212a9eb5f664b9cddccc34a32c252add1f01c0cd6b91973b8ec2a274d643db356d82f
   languageName: node
   linkType: hard
 
@@ -776,21 +769,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-node@https://github.com/eetu/eslint-config-node#2.0.0":
-  version: 2.0.0
-  resolution: "eslint-config-node@https://github.com/eetu/eslint-config-node.git#commit=e0892ebb0ef6f58ec268c4543af746fc4c0bc835"
+"eslint-config-node@https://github.com/eetu/eslint-config-node#2.0.1":
+  version: 2.0.1
+  resolution: "eslint-config-node@https://github.com/eetu/eslint-config-node.git#commit=0b7b2175733d771d64c5a7f1715e3f44cf44a8ca"
   dependencies:
-    "@eslint/js": "npm:^9.6.0"
+    "@eslint/js": "npm:^9.12.0"
     "@types/eslint__js": "npm:^8.42.3"
     eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-simple-import-sort: "npm:^10.0.0"
-    eslint-plugin-unused-imports: "npm:^3.0.0"
+    eslint-plugin-simple-import-sort: "npm:^12.1.1"
+    eslint-plugin-unused-imports: "npm:^4.1.4"
   peerDependencies:
     eslint: ">= 9"
     prettier: ">= 3"
     typescript: ">= 5"
     typescript-eslint: ">= 7"
-  checksum: 10/599a1fce2252288774e54fe6e2666b7614ebd5bac3188fdb1cf839b5a9e3659999fc6d09b42845387c60e0d8b6b35ce0e95181ef00e10553f0df1eb5c94bd696
+  checksum: 10/a93d956ef340200f35a4f85cea00e3c063e9eb33e9fb09c69aa4d3045b0a7b709804249a6ca6b51644ee4fab4046e9f63ef4840977a49d0dc2414d9f32bbba88
   languageName: node
   linkType: hard
 
@@ -810,7 +803,7 @@ __metadata:
   resolution: "eslint-config-react@workspace:."
   dependencies:
     eslint: "npm:^9.12.0"
-    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.0.0"
+    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.0.1"
     eslint-plugin-react: "npm:^7.37.1"
     eslint-plugin-react-hooks: "npm:^5.0.0"
     eslint-plugin-react-refresh: "npm:^0.4.12"
@@ -871,34 +864,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-simple-import-sort@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "eslint-plugin-simple-import-sort@npm:10.0.0"
+"eslint-plugin-simple-import-sort@npm:^12.1.1":
+  version: 12.1.1
+  resolution: "eslint-plugin-simple-import-sort@npm:12.1.1"
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: 10/462187d3c137ba0986586a4759fe57c1c3fc1850750cb785f335b9b235346a1d96ebfcfb558847fc1a3b319718f2736178a66a61a0c184c86d48b21c1e0df26b
+  checksum: 10/2a690cea9243fbefa70345687bca8952f5e185fa459b7a8db687a908cc31082435cfee236c619d5245548fa5f89a2f2c4f8499f80512e048d2bedc60e3662d5a
   languageName: node
   linkType: hard
 
-"eslint-plugin-unused-imports@npm:^3.0.0":
-  version: 3.2.0
-  resolution: "eslint-plugin-unused-imports@npm:3.2.0"
-  dependencies:
-    eslint-rule-composer: "npm:^0.3.0"
+"eslint-plugin-unused-imports@npm:^4.1.4":
+  version: 4.1.4
+  resolution: "eslint-plugin-unused-imports@npm:4.1.4"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": 6 - 7
-    eslint: 8
+    "@typescript-eslint/eslint-plugin": ^8.0.0-0 || ^7.0.0 || ^6.0.0 || ^5.0.0
+    eslint: ^9.0.0 || ^8.0.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
-  checksum: 10/05ce3ae4278245caeb25af28aa6832ecd59d664633f31b1dd498798d27cb7f959e2af1b8feeef789a87755541f47b222156c29420f1777d4c5f022e842171ed7
-  languageName: node
-  linkType: hard
-
-"eslint-rule-composer@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "eslint-rule-composer@npm:0.3.0"
-  checksum: 10/c751e71243c6750de553ca0f586a71c7e9d43864bcbd0536639f287332e3f1ed3337bb0db07020652fa90937ceb63b6cc14c0f71fb227e8fc20ca44ee67e837f
+  checksum: 10/8e987028ad925ce1e04c01dcae70adbf44c2878a8b15c4327b33a2861e471d7fe00f6fe213fbd2b936f3fcefc8ccabb0d778aa1d6e0e0387a3dc7fe150cd4ed4
   languageName: node
   linkType: hard
 
