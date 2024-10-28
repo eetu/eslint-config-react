@@ -813,7 +813,7 @@ __metadata:
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
     eslint-plugin-react: "npm:^7.37.1"
     eslint-plugin-react-hooks: "npm:^5.0.0"
-    eslint-plugin-react-refresh: "npm:^0.4.13"
+    eslint-plugin-react-refresh: "npm:^0.4.14"
     prettier: "npm:^3.3.3"
     typescript: "npm:^5.6.3"
     typescript-eslint: "npm:^8.11.0"
@@ -834,12 +834,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-refresh@npm:^0.4.13":
-  version: 0.4.13
-  resolution: "eslint-plugin-react-refresh@npm:0.4.13"
+"eslint-plugin-react-refresh@npm:^0.4.14":
+  version: 0.4.14
+  resolution: "eslint-plugin-react-refresh@npm:0.4.14"
   peerDependencies:
     eslint: ">=7"
-  checksum: 10/a266b11fb457687ff3ac29b9d854a22e32ca0a6f087efe848a3b18a70eee1ed11e1b636a71cadb9441cb7438560742176540553c5f0dafdcc3914ddb44e298ee
+  checksum: 10/295ddf50cbe03187133f855f76baf88c92ce487971cdbc0ab33e037dc5d3d187fe2f809633eaa94da2769859963664b8c5b745db4812c644a1c535fe8823a045
   languageName: node
   linkType: hard
 
