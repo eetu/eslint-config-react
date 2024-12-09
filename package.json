@@ -10,7 +10,7 @@
   "dependencies": {
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.1.0",
     "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.16"
   },
   "devDependencies": {
