@@ -8,7 +8,7 @@
     "test": "eslint -c index.js index.js"
   },
   "dependencies": {
-    "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.1.0",
+    "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.1.1",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19"
@@ -25,5 +25,5 @@
     "typescript": ">= 5",
     "typescript-eslint": ">= 7"
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.6.0"
 }

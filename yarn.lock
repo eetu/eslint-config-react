@@ -76,17 +76,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.20.0":
+"@eslint/js@npm:9.20.0, @eslint/js@npm:^9.20.0":
   version: 9.20.0
   resolution: "@eslint/js@npm:9.20.0"
   checksum: 10/2304cd725700046ba611f06bf9cd0941db7e02e0d602d8fd9e4734c13067699954597b9a3a2b048ce02eb0550373669d2ab7be6edaf6abf7b67eb19d1276b57b
-  languageName: node
-  linkType: hard
-
-"@eslint/js@npm:^9.12.0":
-  version: 9.12.0
-  resolution: "@eslint/js@npm:9.12.0"
-  checksum: 10/c4ec9f7ff664f778324002bccdfd63e4a563018e4d7efc838d8149898f9df8649fbc51a379c3d7deea40da4fba9e8e62f39f2df3ff2b9616e2241bbfc10456b0
   languageName: node
   linkType: hard
 
@@ -978,13 +971,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-node@https://github.com/eetu/eslint-config-node#2.1.0":
+"eslint-config-node@https://github.com/eetu/eslint-config-node#2.1.1":
   version: 2.1.0
-  resolution: "eslint-config-node@https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"
+  resolution: "eslint-config-node@https://github.com/eetu/eslint-config-node.git#commit=c30ab8799b7e0b5efcf90d23c532b369911ed5d0"
   dependencies:
-    "@eslint/js": "npm:^9.12.0"
+    "@eslint/js": "npm:^9.20.0"
     "@types/eslint__js": "npm:^8.42.3"
-    eslint-config-prettier: "npm:^9.1.0"
+    eslint-config-prettier: "npm:^10.0.1"
     eslint-plugin-simple-import-sort: "npm:^12.1.1"
     eslint-plugin-unused-imports: "npm:^4.1.4"
   peerDependencies:
@@ -992,18 +985,18 @@ __metadata:
     prettier: ">= 3"
     typescript: ">= 5"
     typescript-eslint: ">= 7"
-  checksum: 10/0e1ba6818f3314b91dac0274c2fe585cf1dc8969964fa9d02b11e6de06923508b3a00911eac5d935f1e3475557b86b84441a2df6282558fbeeff679adabf5eac
+  checksum: 10/64f40c49174caa7794cae3982a9dd58f7f37e68cee97f4e92128776101de2af94a97b15b3a062a29d0997c8b4e2da50810e2778a1bb345fd2c01521d52ef50d5
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "eslint-config-prettier@npm:9.1.0"
+"eslint-config-prettier@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "eslint-config-prettier@npm:10.0.1"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
-    eslint-config-prettier: bin/cli.js
-  checksum: 10/411e3b3b1c7aa04e3e0f20d561271b3b909014956c4dba51c878bf1a23dbb8c800a3be235c46c4732c70827276e540b6eed4636d9b09b444fd0a8e07f0fcd830
+    eslint-config-prettier: build/bin/cli.js
+  checksum: 10/ba6875df0fc4fd3c7c6e2ec9c2e6a224462f7afc662f4cf849775c598a3571c1be136a9b683b12971653b3dcf3f31472aaede3076524b46ec9a77582630158e5
   languageName: node
   linkType: hard
 
@@ -1012,7 +1005,7 @@ __metadata:
   resolution: "eslint-config-react@workspace:."
   dependencies:
     eslint: "npm:^9.20.0"
-    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
+    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.1"
     eslint-plugin-react: "npm:^7.37.4"
     eslint-plugin-react-hooks: "npm:^5.1.0"
     eslint-plugin-react-refresh: "npm:^0.4.19"
@@ -2885,11 +2878,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.7.3#optional!builtin<compat/typescript>":
   version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=379a07"
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/3ac7b7e3e899273d2fbdce6e24b93d4d53a705ad7a7e4cc83b4c57bcb6d25948abcd2a21994f6b9c73ab03960f395aae95f0458de292a66ce0134233261714c3
+  checksum: 10/dc58d777eb4c01973f7fbf1fd808aad49a0efdf545528dab9b07d94fdcb65b8751742804c3057e9619a4627f2d9cc85547fdd49d9f4326992ad0181b49e61d81
   languageName: node
   linkType: hard
 
