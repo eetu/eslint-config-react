@@ -74,17 +74,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.23.0":
+"@eslint/js@npm:9.23.0, @eslint/js@npm:^9.23.0":
   version: 9.23.0
   resolution: "@eslint/js@npm:9.23.0"
   checksum: 10/d1d38fa2c4234f6ebed8e202530c9dccf565c47283f4e3c53955a47fed2bf8c59988f535672a32b53c14fed72e456c1c5cb050cd98a45474086b9693cbfa97d6
-  languageName: node
-  linkType: hard
-
-"@eslint/js@npm:^9.20.0":
-  version: 9.20.0
-  resolution: "@eslint/js@npm:9.20.0"
-  checksum: 10/2304cd725700046ba611f06bf9cd0941db7e02e0d602d8fd9e4734c13067699954597b9a3a2b048ce02eb0550373669d2ab7be6edaf6abf7b67eb19d1276b57b
   languageName: node
   linkType: hard
 
@@ -170,32 +163,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*":
-  version: 8.56.10
-  resolution: "@types/eslint@npm:8.56.10"
-  dependencies:
-    "@types/estree": "npm:*"
-    "@types/json-schema": "npm:*"
-  checksum: 10/0cdd914b944ebba51c35827d3ef95bc3e16eb82b4c2741f6437fa57cdb00a4407c77f89c220afe9e4c9566982ec8a0fb9b97c956ac3bd4623a3b6af32eed8424
-  languageName: node
-  linkType: hard
-
-"@types/eslint__js@npm:^8.42.3":
-  version: 8.42.3
-  resolution: "@types/eslint__js@npm:8.42.3"
-  dependencies:
-    "@types/eslint": "npm:*"
-  checksum: 10/e31f19de642d35a664695d0cab873ce6de19b8a3506755835b91f8a49a8c41099dcace449df49f1a486de6fa6565d21ceb1fa33be6004fc7adef9226e5d256a1
-  languageName: node
-  linkType: hard
-
-"@types/estree@npm:*":
-  version: 1.0.5
-  resolution: "@types/estree@npm:1.0.5"
-  checksum: 10/7de6d928dd4010b0e20c6919e1a6c27b61f8d4567befa89252055fad503d587ecb9a1e3eab1b1901f923964d7019796db810b7fd6430acb26c32866d126fd408
-  languageName: node
-  linkType: hard
-
 "@types/estree@npm:^1.0.6":
   version: 1.0.6
   resolution: "@types/estree@npm:1.0.6"
@@ -203,7 +170,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.15":
+"@types/json-schema@npm:^7.0.15":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 10/1a3c3e06236e4c4aab89499c428d585527ce50c24fe8259e8b3926d3df4cfbbbcf306cfc73ddfb66cbafc973116efd15967020b0f738f63e09e64c7d260519e7
@@ -976,13 +943,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-node@https://github.com/eetu/eslint-config-node#2.1.1":
-  version: 2.1.0
-  resolution: "eslint-config-node@https://github.com/eetu/eslint-config-node.git#commit=c30ab8799b7e0b5efcf90d23c532b369911ed5d0"
+"eslint-config-node@https://github.com/eetu/eslint-config-node#2.1.2":
+  version: 2.1.2
+  resolution: "eslint-config-node@https://github.com/eetu/eslint-config-node.git#commit=ab8f3ffb83b8fda2e619028c26bf2d5703d5f8b1"
   dependencies:
-    "@eslint/js": "npm:^9.20.0"
-    "@types/eslint__js": "npm:^8.42.3"
-    eslint-config-prettier: "npm:^10.0.1"
+    "@eslint/js": "npm:^9.23.0"
+    eslint-config-prettier: "npm:^10.1.1"
     eslint-plugin-simple-import-sort: "npm:^12.1.1"
     eslint-plugin-unused-imports: "npm:^4.1.4"
   peerDependencies:
@@ -990,18 +956,18 @@ __metadata:
     prettier: ">= 3"
     typescript: ">= 5"
     typescript-eslint: ">= 7"
-  checksum: 10/64f40c49174caa7794cae3982a9dd58f7f37e68cee97f4e92128776101de2af94a97b15b3a062a29d0997c8b4e2da50810e2778a1bb345fd2c01521d52ef50d5
+  checksum: 10/c0d7271c0ad9ce1ed3861c11b1d0e0907375a019981b98608682339fbe9c15e581a64847968281ce0f742bafea7c5d3a83a007469623866bc04c24ea16e54819
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "eslint-config-prettier@npm:10.0.1"
+"eslint-config-prettier@npm:^10.1.1":
+  version: 10.1.1
+  resolution: "eslint-config-prettier@npm:10.1.1"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
-    eslint-config-prettier: build/bin/cli.js
-  checksum: 10/ba6875df0fc4fd3c7c6e2ec9c2e6a224462f7afc662f4cf849775c598a3571c1be136a9b683b12971653b3dcf3f31472aaede3076524b46ec9a77582630158e5
+    eslint-config-prettier: bin/cli.js
+  checksum: 10/e78e195a4f19e0de9bf655648bb3433877d6a5368537f1b1049976b74180844a00dd7c1ba3144e3da6e8b6864f8dcdfcda6c7338a537883fcf5b212ef6dcd0e0
   languageName: node
   linkType: hard
 
@@ -1010,7 +976,7 @@ __metadata:
   resolution: "eslint-config-react@workspace:."
   dependencies:
     eslint: "npm:^9.23.0"
-    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.1"
+    eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.2"
     eslint-plugin-react: "npm:^7.37.4"
     eslint-plugin-react-hooks: "npm:^5.2.0"
     eslint-plugin-react-refresh: "npm:^0.4.19"
